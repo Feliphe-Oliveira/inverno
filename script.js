@@ -2,7 +2,7 @@
 const btn_invernia = document.getElementById('btnIn')
 
 btn_invernia.addEventListener('click',()=>{
-    const cod = 'que'
+    const cod = 'me'
     const senha = document.getElementById('senha')
 
     if(senha.value.toUpperCase() == cod.toUpperCase()){
